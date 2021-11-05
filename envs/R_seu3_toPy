@@ -1,0 +1,20 @@
+name: R_seu3_toPy
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base>=3.6
+  - rstudio
+  - r-knitr>=1.20
+  - r-devtools>=2
+  - r-matrix
+  - r-irlba
+  - r-dplyr
+  - r-ggplot2>=3.0
+  - r-seurat=3.2.2
+  - r-plot3d
+  - r-hdf5r
+
+#In a terminal with conda, type
+#mamba env create -f ~/ceph_snabel/conda_env_files/kb_scrna_R_seu3_toPy.yaml
