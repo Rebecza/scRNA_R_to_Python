@@ -1,0 +1,17 @@
+name: py_scepia_new
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.6
+  - bqplot
+  - ipykernel
+  - nb_conda
+  - scanpy
+  - seaborn
+  - scepia>=0.5.1
+  - loompy
+
+#In a terminal with conda, type
+#$mamba env create -f ~/ceph_snabel/conda_env_files/py_scepia_new.yaml
